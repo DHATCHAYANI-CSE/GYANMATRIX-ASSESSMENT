@@ -1,0 +1,61 @@
+.nav{
+position: absolute;
+width: 247px;
+height: 46px;
+left: 48px;
+top: 68.01px;
+}
+
+
+.box{
+position: absolute;
+width: 1440px;
+height: 1028px;
+background: url(backgroundimage.png);
+
+  
+
+}
+.form{
+    position: absolute;
+    width: 721px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
+    border-radius: 46px;
+}
+h2{
+    text-align:center;
+}
+.button{
+    position: absolute;
+    height: 80px;
+    width: 521px;
+    left:100px;
+    top:454px;
+    border: 1px solid #FCF291;
+    border-radius: 38px;
+}
+.but{
+    position:absolute;
+    
+    background: #FFCD2D;
+    height: 80px;
+    width:521px;
+    left:100px;
+    top:634px;
+    border-radius: 38px;
+    transition-duration: 0.5s;
+}
+.but:hover{
+    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
+}
+.button1{
+    position: absolute;
+    background:1px solid #FCF291; ;
+    height: 80px;
+    width: 521px;
+    left:100px;
+    top:344px;
+}
