@@ -1,61 +1,114 @@
 .nav{
+
 position: absolute;
 width: 247px;
 height: 46px;
 left: 48px;
 top: 68.01px;
+
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.185em;
+
+color: #DCDCDC;
+
+
 }
 
 
 .box{
 position: absolute;
+height:1028px ;
 width: 1440px;
-height: 1028px;
 background: url(backgroundimage.png);
-
-  
-
+background-color: black;
 }
 .form{
     position: absolute;
-    width: 721px;
-    height: 1024px;
+    width: 521px;
+    height: 502px;
     left: 0px;
     top: 0px;
     background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
     border-radius: 46px;
 }
-h2{
-    text-align:center;
+h1{
+position: absolute;
+width: 158px;
+height: 75px;
+left: 282px;
+top: 212px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+letter-spacing: -0.015em;
+color: #DCDCDC;
+text-align:center;
 }
 .button{
-    position: absolute;
-    height: 80px;
-    width: 521px;
-    left:100px;
-    top:454px;
-    border: 1px solid #FCF291;
-    border-radius: 38px;
+box-sizing: border-box;
+
+position: absolute;
+width: 521px;
+height: 80px;
+left: 100px;
+top: 344px;
+
+border: 1px solid #FCF291;
+backdrop-filter: blur(200px);
+background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 38px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #DCDCDC;
+
+
+
 }
 .but{
     position:absolute;
-    
     background: #FFCD2D;
     height: 80px;
     width:521px;
     left:100px;
     top:634px;
     border-radius: 38px;
-    transition-duration: 0.5s;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    color: #000000;
 }
 .but:hover{
     background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
 }
 .button1{
+    box-sizing: border-box;
     position: absolute;
-    background:1px solid #FCF291; ;
-    height: 80px;
     width: 521px;
-    left:100px;
-    top:344px;
+    height: 80px;
+    left: 100px;
+    top: 454px;
+    border: 1px solid #FCF291;
+    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
+    backdrop-filter: blur(200px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #DCDCDC;
+
 }
