@@ -1,0 +1,71 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #F6DEFF;
+    background-image: url(Rectangle\ 50.png);
+    position: relative;
+    width: 1440px;
+height: 1024px;
+}
+.hello{
+    position:absolute;
+    height:auto;
+    left:0px;
+    width:250px;
+}
+.logo{
+    position: absolute;
+    width: 447px;
+    height: 83;
+    left: 1450px;
+    top:40px;
+}
+.s1{
+    position: absolute;
+    width: 362px;
+    height: 353px;
+    left: 150px;
+    top: 140px;
+    
+}
+.s2{
+position: absolute;
+width: 362px;
+height: 353px;
+left: 750px;
+top: 136px;
+
+}
+.s3{
+position: absolute;
+width: 362px;
+height: 353px;
+left: 1350px;
+top: 136px;
+}
+.s4{
+position: absolute;
+width: 362px;
+height: 353px;
+left: 150px;
+top: 534px;
+}
+.s5{
+position: absolute;
+width: 362px;
+height: 353px;
+left: 750px;
+top: 534px;
+}
+.s6{
+    position: absolute;
+    width: 362px;
+    height: 353px;
+    left: 1350px;
+    top: 534px;
+}
+
+    
